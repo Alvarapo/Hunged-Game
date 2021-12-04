@@ -1,0 +1,16 @@
+Se realizará una versión para dos jugadores, que juegan al mejor de 5 partidas.
+ 
+En  cada  partida,  un  jugador  alternativamente  escribe  una  palabra.  Esta  palabra  se  ocultará  con 
+asteriscos al otro jugador. 
+
+Usando una fila de guiones, se representa la palabra a adivinar, dando el número de letras.  
+
+• Si  el  jugador  adivinador  sugiere  una  LETRA que  aparece  en  la  palabra,  la  letra seleccionada se mostrará de forma automática
+en la posición en la que esta se encuentre. Además, esta letra se añadirá en una lista de letras ya usadas.
+
+• Si  la  letra  o  el  número  sugerido  no  ocurre  en  la  palabra,  la letra se añadirá en una lista de palabras "prohibidas", perdiendo,
+además, una de las vidas (añadiendo una nueva parte en la figura del ahorcado).
+
+• El juego termina cuando: 
+	o El jugador adivinador completa la palabra, o adivina la palabra completa correctamente 
+	o El sistema completa el diagrama del ahorcado.
